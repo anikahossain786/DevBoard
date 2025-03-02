@@ -1,6 +1,10 @@
+## 🏆 Requirements
+
+Follow the given video strictly to meet all the requirements and Challenges.
+
 ---
-Required Question are Answered at Blog.html
----
+
+## Required Question are Answer at Blog.html
 
 - Question-1: What are the different ways to select an element in the DOM?
 
