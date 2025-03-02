@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog - DOM Questions</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="bg-gray-50">
+    <header class="bg-blue-500 p-4 text-white">
+      <div class="flex justify-between items-center">
+        <h1 class="text-2xl font-semibold">DOM Questions - Blog</h1>
+        <a
+          href="index.html"
+          class="text-white bg-gray-800 px-4 py-2 rounded-md hover:bg-gray-600"
+        >
+          Back to Home
+        </a>
+      </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto p-6">
+      <section class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-xl font-semibold mb-4">Answers to DOM Questions</h2>
+        
+        <!-- Question 1 -->
+        <div class="mb-6">
+          <h3 class="text-lg font-semibold">Question 1: What are the different ways to select an element in the DOM?</h3>
+          <p>
+            WE can select elements in the DOM using the following methods:
+            <ul class="list-disc pl-6">
+              <li><strong>getElementById:</strong> Selects an element by  ID.</li>
+              <li><strong>getElementsByClassName:</strong> Selects all elements with a specified class.</li>
+              <li><strong>getElementsByTagName:</strong> Selects all elements with a specified tag name.</li>
+              <li><strong>querySelector:</strong> Selects the first element that matches a CSS selector.</li>
+              <p>etc.</p>
+            </ul>
+          </p>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="mb-6">
+          <h3 class="text-lg font-semibold">Question 2: What is the difference between innerHTML, innerText, and textContent?</h3>
+          <p>
+            <ul class="list-disc pl-6">
+              <li><strong>innerHTML:</strong> Gets or sets the HTML content of an element. It can include HTML tags.</li>
+              <li><strong>innerText:</strong> Gets or sets the text content of an element, excluding any HTML tags, and reflects the visible text.</li>
+              <li><strong>textContent:</strong> Similar to innerText but is more consistent. It includes all text content in the element, including hidden text.</li>
+            </ul>
+          </p>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="mb-6">
+          <h3 class="text-lg font-semibold">Question 3: What is event delegation in the DOM?</h3>
+          <p>
+            Event delegation is a technique where we can attach a single event listener to a parent element instead of adding event listeners to each child element. The event listener captures events from child elements through the event bubbling process.
+          </p>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="mb-6">
+          <h3 class="text-lg font-semibold">Question 4: What is event bubbling in the DOM?</h3>
+          <p>
+            Event bubbling is the process where an event starts at the target element and then bubbles up to the parent elements, triggering the event listeners on each parent element.
+          </p>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="mb-6">
+          <h3 class="text-lg font-semibold">Question 5: How do you create, add, and remove elements using JavaScript?</h3>
+          <p>
+            You can use the following methods:
+            <ul class="list-disc pl-6">
+              <li><strong>createElement:</strong> Creates a new element.</li>
+              <li><strong>appendChild:</strong> Adds a new element as a child to another element.</li>
+              <li><strong>removeChild:</strong> Removes a child element from its parent.</li>
+            </ul>
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
